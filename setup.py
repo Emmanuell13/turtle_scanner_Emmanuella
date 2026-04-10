@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        ],
+   'spawn_target = turtle_scanner_Emmanuella.spawn_target:main',
+   'turtle_scanner_node = turtle_scanner_Emmanuella.turtle_scanner_node:main',
+],
     },
 )
